@@ -1,5 +1,5 @@
 {   
-    "initializeCommand": "touch .devcontainer/Makefile",
+    "initializeCommand": "touch /testMakefile",
     "build": {
         "dockerfile": "Dockerfile"
     }

@@ -3,9 +3,11 @@
     "build": {
         "dockerfile": "Dockerfile"
     },
-    "extensions": [
-        "ms-python.python",        // Python extension
-        "esbenp.prettier-vscode", // Prettier extension
-        "dbaeumer.vscode-eslint"  // ESLint extension
-    ]
+    "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": ["esbenp.prettier-vscode", "Angular.ng-template"]
+    }
+  }
 }

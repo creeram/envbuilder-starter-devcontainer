@@ -1,6 +1,11 @@
-{   
+{
     "initializeCommand": "touch /testMakefile",
     "build": {
         "dockerfile": "Dockerfile"
-    }
+    },
+    "extensions": [
+        "ms-python.python",        // Python extension
+        "esbenp.prettier-vscode", // Prettier extension
+        "dbaeumer.vscode-eslint"  // ESLint extension
+    ]
 }
